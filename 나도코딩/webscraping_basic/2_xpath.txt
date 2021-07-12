@@ -1,6 +1,12 @@
 /학교/학년/반/학생[2]
+//*[@학번="1-1-5"]
+//*[@id="account"]/a #네이버 로그인의 xpath
+/html/body/div[2]/div[2]/div[3]/div/div[2]/a #네이버 로그인의 fullxpath
+xpath는 html문서의 특정엘리먼트의 주소(경로)
+경로를 찾기위해선 id나 클래스 속성 특징을 찾는 간편한 작업이라고 할숭도있다.
 
-/html/body/div/span/a...
+/html/body/div/div/div/div/div/span/a...
+//*[@id="login"]
 
 <학교 이름="민성고등학교">
   <학년 value="1학년">
